@@ -2,10 +2,16 @@
 #define FUNC_H
 
 #include<iostream>
+<<<<<<< HEAD
+=======
+#include<stack>
+#include<vector>
+>>>>>>> 2b76d576355f417f5db0649911aa3f255afea0f9
 
 using namespace std;
 
 struct TreeNode {
+<<<<<<< HEAD
   int val;
   TreeNode *left;
   TreeNode *right;
@@ -24,3 +30,20 @@ public:
 
 
 #nedif
+=======
+      int val;
+      TreeNode *left;
+      TreeNode *right;
+      TreeNode() : val(0), left(nullptr), right(nullptr) {}
+      TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+      TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+  };
+
+class Solution {
+public:
+  vector<int> inorderTraversal(TreeNode* root){}
+};
+
+
+#endif
+>>>>>>> 2b76d576355f417f5db0649911aa3f255afea0f9
